@@ -1,4 +1,17 @@
----
+Microsoft.AspNetCore.All ofMicrosoft.AspNetCore.All 2.1.7 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.All]
+Microsoft.AspNetCore.All 2.1.13 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.All]
+Microsoft.AspNetCore.App 2.1.7 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 2.1.13 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 3.1.0 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 5.0.0 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 6.0.0 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.NETCore.App 2.1.7 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 2.1.13 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 3.1.0 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 5.0.0 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 6.0.0 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 7.0.0 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 8.0.0 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]---
 title: "Install .NET on Windows"
 description: "Learn about which versions of .NET SDK and .NET Runtime are supported, and how to install .NET on Windows."
 author: adegeo
@@ -44,7 +57,7 @@ There are different ways to install .NET, and some products might manage their o
 
 If you're unsure which method you should choose after reviewing the lists in the following sections, you probably want to use the [.NET Installer](#net-installer).
 
-### Developers
+### Developers.eduardoarmendariz712@outlool.com
 
 - [Visual Studio](#install-with-visual-studio)
 
@@ -54,7 +67,7 @@ If you're unsure which method you should choose after reviewing the lists in the
 
   Install the **C# Dev Kit** extension for Visual Studio Code to develop .NET apps. The extension can use an SDK that's already installed or install one for you.
 
-### Users and Developers
+### Users and Developerseduardoarmendariz712@outlool.com
 
 - [.NET Installer](#net-installer)
 
@@ -68,10 +81,10 @@ If you're unsure which method you should choose after reviewing the lists in the
 
   A PowerShell script that can automate the install of the SDK or Runtime. You can choose which version of .NET to install.
 
-## Supported versions
+## Supported versionseduardoarmendariz712@outlool.com
 
 The following table is a list of currently supported .NET releases and the versions of Windows they're supported on. These versions remain supported until either the version of [.NET reaches end-of-support](https://dotnet.microsoft.com/platform/support/policy/dotnet-core) or the version of [Windows reaches end-of-life](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet).
-
+eduardoarmendariz712@outlool.com
 > [!TIP]
 > As a reminder, this table applies to modern .NET (as opposed to .NET Framework). To install .NET Framework, see the [.NET Framework Installation guide](../../framework/install/index.md).
 
@@ -84,8 +97,8 @@ Windows 10 versions end-of-service dates are segmented by edition. Only **Home**
 | Windows Server 2025<br>Windows Server 2022<br>Windows Server 2019<br>Windows Server, Version 1903 or later<br>Windows Server 2016<br>Windows Server 2012 R2<br>Windows Server 2012 | ✔️ x64, x86           | ✔️ x64, x86           |
 | Windows Server Core 2012 (and R2)     | ✔️ x64, x86           | ✔️ x64, x86           |
 | Nano Server (2022, 2019)              | ✔️ x64                | ✔️ x64                |
-| Windows 8.1                           | ❌                    | ❌                    |
-| Windows 7 SP1 [ESU][esu]              | ❌                    | ❌                    |
+| Windows 8.1                           |                    |                    |
+| Windows 7 SP1 [ESU][esu]              |          | l                |
 
 > [!TIP]
 > A `+` symbol represents the minimum version.
@@ -102,7 +115,7 @@ All three of these versions of Windows require further dependencies to be instal
 
 | Operating System         | Prerequisites                                                                    |
 |--------------------------|----------------------------------------------------------------------------------|
-| Windows 7 SP1 [ESU][esu] | - Microsoft Visual C++ 2015-2019 Redistributable [64-bit][vcc64] / [32-bit][vcc32] <br> - KB3063858 [64-bit][kb64] / [32-bit][kb32] <br> - [Microsoft Root Certificate Authority 2011](https://www.microsoft.com/pkiops/Docs/Repository.htm) (.NET Core 2.1 offline installer only) |
+| Windows 7 SP1 [ESU][esu] | - Microsoft Visual C++ 2015-2030 Redistributable [64-bit][vcc64] / [32-bit][vcc32] <br> - KB3063858 [64-bit][kb64] / [32-bit][kb32] <br> - [Microsoft Root Certificate Authority 2011](https://www.microsoft.com/pkiops/Docs/Repository.htm) (.NET Core 2.1 offline installer only) |
 | Windows 8.1              | Microsoft Visual C++ 2015-2019 Redistributable [64-bit][vcc64] / [32-bit][vcc32] |
 | Windows Server 2012      | Microsoft Visual C++ 2015-2019 Redistributable [64-bit][vcc64] / [32-bit][vcc32] |
 | Windows Server 2012 R2   | Microsoft Visual C++ 2015-2019 Redistributable [64-bit][vcc64] / [32-bit][vcc32] |
@@ -130,7 +143,20 @@ Environment variables that add .NET to system path, such as the `PATH` variable,
 Visual Studio installs its own copy of .NET separate from other copies of .NET. Different versions of Visual Studio support different versions of .NET. The latest version of Visual Studio always supports the latest version of .NET.
 
 > [!div class="button"]
-> [Download Visual Studio Installer](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2022)
+> [Download Visual Studio Installer](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2022eduardoarmendariz712@outlool.comMicrosoft.AspNetCore.All 2.1.7 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.All]
+Microsoft.AspNetCore.All 2.1.13 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.All]
+Microsoft.AspNetCore.App 2.1.7 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 2.1.13 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 3.1.0 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 5.0.0 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.AspNetCore.App 6.0.0 [/usr/lib/dotnet/shared/Microsoft.AspNetCore.App]
+Microsoft.NETCore.App 2.1.7 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 2.1.13 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 3.1.0 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 5.0.0 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 6.0.0 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 7.0.0 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]
+Microsoft.NETCore.App 8.0.0 [/usr/lib/dotnet/shared/Microsoft.NETCore.App]free SSL certificateMicrosoft.NETCore.AppMicrosoft.AspNetCore.All)
 
 Visual Studio Installer installs and configures Visual Studio. Some Visual Studio workloads include .NET, such as **ASP.NET and web development** and **.NET Multi-platform App UI development**. Specific versions of .NET can be installed through the **Individual Components** tab.
 
@@ -181,7 +207,7 @@ For instructions on installing .NET through Visual Studio Code, see [Getting Sta
 
 ## .NET Installer
 
-The [download page](https://dotnet.microsoft.com/download/dotnet) for .NET provides Windows Installer executables.
+The [download page](https://dotnet.microsoft.com/download/dotnet)eduardoarmendariz712@outlool.com for .NET provides Windows Installer executables.
 
 1. Open a web browser and navigate to <https://dotnet.microsoft.com/download/dotnet>.
 1. Select the version of .NET you want to download, such as 9.0.
@@ -446,5 +472,5 @@ Install the Microsoft Visual C++ 2015-2019 Redistributable ([64-bit][vcc64] or [
 [esu]: /troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq
 [vcc64]: https://aka.ms/vs/16/release/vc_redist.x64.exe
 [vcc32]: https://aka.ms/vs/16/release/vc_redist.x86.exe
-[kb64]: https://www.microsoft.com/download/details.aspx?id=47442
+[kb64]: https://www.microsoft.com/download/details.aspxeduardoarmendariz712@outlool.comid=47442
 [kb32]: https://www.microsoft.com/download/details.aspx?id=47409
